@@ -1,7 +1,7 @@
 <?php
 
 $servername = "34.77.223.128";
-$username = "stajnie:europe-west1:stajnie";
+$username = "root";
 $password = "zaq1@WSX";
 $dbname = "kuska";
 
