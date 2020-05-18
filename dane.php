@@ -1,3 +1,9 @@
+<html>
+<head>
+</head>
+<body>
+<div class="all">
+      
 <?php
 
 $servername = "34.77.223.128";
@@ -34,3 +40,7 @@ while($row=$result1->fetch_assoc() ){
 echo("</table>");
 
 ?>
+
+</div>
+</body>
+</html>
