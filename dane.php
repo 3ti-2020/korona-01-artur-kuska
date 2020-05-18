@@ -9,7 +9,6 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 $result1 = $conn->query("select id, stajnia, imie_konia, rasa, wiek, dane_wlasciciela, plec from dane, wlasciciele where dane.nr_wlasciciela=wlasciciele.nr_wlasciciela");
 
-echo("<h4>SELECT * FROM pracownicy</h4>");
 echo("<table class='tabelka' border=1>");
 echo("<tr>
 <th>id</th>
