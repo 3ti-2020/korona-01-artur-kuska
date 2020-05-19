@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(83, 20, 20);
+}
+
+.logo{
+    margin-left:1%;
+    height: 80px;
+    width: 100px;
+    background-color: rgb(83, 20, 20);
+}
+
+.link{
+    margin-top: 4px;
+    color: seashell;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bek{
+    margin-right: 1%;
+    display: flex;
+    text-align: center;
+    height: 28px;
+    color: rgb(233, 114, 10);
+    width: 120px;
+    background: rgb(83, 20, 20);
+}
+
+.back{
+    height: 100%;
+    width: 100%;
+}
+
+
+.tyt{
+    width: 90%;
+    background: rgb(214, 189, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.all{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 19fr;
+    row-gap: 3px;
+    grid-template-areas: 
+    "a a a a"
+    "b b b b";
+}
+
+.item{
+    background: rgb(214, 189, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ia{
+    grid-area: a;
+}
+
+.ib{
+    grid-area: b;
+    display: flex;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 402px;
+    font-size: large;
+}
+
+th{
+    font-weight: bold;
+    text-align: center;
+    height: 85.5px;
+    width: 200px;
+    background: rgb(214, 189, 49);
+}
+
+td{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    background: rgb(214, 189, 49);
+}
