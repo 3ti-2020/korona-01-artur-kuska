@@ -75,32 +75,32 @@
     display: flex;
 }
 
-table{
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-
 .tabela{
+    height: 80%;
+    width: 80%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 60%;
-    height: 402px;
-    font-size: large;
+    background: rgb(214, 189, 49);
 }
 
 th{
     font-weight: bold;
     text-align: center;
-    height: 85.5px;
-    width: 200px;
+    height: 1%;
+    width: 8%;
     background: rgb(214, 189, 49);
 }
 
 td{
     text-align: center;
-    height: 50px;
-    width: 100px;
+    height: 1%;
+    width: 8%;
     background: rgb(214, 189, 49);
+}
+
+tr{
+    height: 1%;
+    width: 8%;
+    background: rgb(214, 189, 49);
+
 }
